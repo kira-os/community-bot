@@ -1,0 +1,19 @@
+{
+  "name": "community-bot",
+  "version": "1.0.0",
+  "description": "Auto-reward engaged community members with $KIRA airdrops based on engagement scores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "discord.js": "^14.25.1",
+    "telegraf": "^4.16.3",
+    "twitter-api-v2": "^1.29.0"
+  }
+}
