@@ -93,7 +93,24 @@ export function setupCommands(
       `Total Users: ${totalUsers}\n` +
       `Total Engagement: ${totalPoints} points\n` +
       `Average Score: ${totalUsers > 0 ? Math.round(totalPoints / totalUsers) : 0} points\n\n` +
+      `X Tracking: @kiraos mentions, likes, replies all earn points\n\n` +
       `Join the community and start earning!`
+    );
+  });
+
+  // X Connect command
+  bot.bot.command('connectx', (ctx) => {
+    const userId = ctx.from?.id.toString() || '';
+    
+    ctx.reply(
+      `🔗 Connect your X/Twitter account\n\n` +
+      `1. Follow @kiraos\n` +
+      `2. Like and retweet our posts\n` +
+      `3. Mention @kiraos in your tweets\n` +
+      `4. Reply to our posts\n\n` +
+      `All engagement is automatically tracked and earns you $KIRA rewards!\n\n` +
+      `Your Telegram ID: ${userId}\n` +
+      `Use this ID to link your accounts.`
     );
   });
 }

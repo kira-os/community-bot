@@ -6,6 +6,9 @@ Auto-reward engaged community members with $KIRA airdrops.
 
 - **Multi-Platform**: Telegram, Discord, X/Twitter
 - **Engagement Tracking**: Score users based on activity
+- **X Tracking**: Auto-track mentions, likes, replies, retweets of Kira
+- **Unified Scoring**: Cross-platform engagement points
+- **Tier System**: Bronze → Silver → Gold → Platinum → Diamond
 - **Automatic Airdrops**: Distribute $KIRA rewards
 - **Leaderboards**: Top community members
 
