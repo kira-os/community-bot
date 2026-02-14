@@ -1,25 +1,51 @@
-# Community Engagement Bot
+# Community Bot
 
-Auto-reward engaged community members with $KIRA airdrops based on engagement scores.
+Auto-reward engaged community members with $KIRA airdrops.
 
-## Features
+## 🚀 Features
 
-- **Engagement Tracking**: Monitor X, Telegram, Discord activity
-- **Automatic Scoring**: Algorithmic engagement calculation
-- **Airdrop Distribution**: Automatic $KIRA rewards
+- **Multi-Platform**: Telegram, Discord, X/Twitter
+- **Engagement Tracking**: Score users based on activity
+- **Automatic Airdrops**: Distribute $KIRA rewards
 - **Leaderboards**: Top community members
-- **Campaign Management**: Create engagement campaigns
 
-## Integration
+## 🛠️ Tech Stack
 
-- X/Twitter API for tweet tracking
-- Telegram bot for group engagement
-- Discord bot for server activity
-- Solana for token distribution
+- TypeScript
+- Telegraf (Telegram)
+- Discord.js
+- Twitter API v2
+- Solana Web3.js
 
-## Getting Started
+## 🤖 Commands
+
+```
+/start - Get started
+/help - Show commands
+/leaderboard - Top 10 members
+/score - Your engagement score
+/airdrop - Claim $KIRA rewards
+/stats - Global stats
+```
+
+## 🔧 Development
 
 ```bash
 npm install
 npm run dev
 ```
+
+## 🌐 Deployment
+
+```bash
+npm run build
+npm start
+```
+
+## 🔒 Security
+
+Pre-commit hooks prevent secret exposure.
+
+## 📄 License
+
+MIT
